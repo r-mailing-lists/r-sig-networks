@@ -1,0 +1,36 @@
+From spurushothaman at lnxresearch.com  Fri Jul 18 22:02:41 2008
+From: spurushothaman at lnxresearch.com (Senthil Purushothaman)
+Date: Fri, 18 Jul 2008 13:02:41 -0700
+Subject: [R-sig-networks] Calculating Betweenness - Efficiency Problem
+Message-ID: <BC5F8F1C83BC2F4090D8DC7BF750D348017F1153@saturn.HealthIQ.local>
+
+Hello,
+
+I am calculating 'Betweenness' of a large network using R. Currently, I
+have the node-node information (City1-City2) in an excel file, present
+in two columns where column A has City1 and column B has City2 that
+city1 is connected to. These are the steps that I go through to
+calculate betweenness of my network.
+
+a) Convert the City1-City2 (text) into Number1-Number2 in the excel file
+where every unique city has a unique number.
+b) Paste all the city-city information separated by comma into c(...) in
+the R GUI to obtain the corresponding vectors. As you can imagine this
+copy-paste operation takes a long time. Example: c(1,3,1,5,2,4,2,5).
+Just fyi, I have a text file that contains all nodes separated by comma
+based on the appropriate link information. 
+c) Then, I create a graph file with the above vector.
+d) I use the graph file to calculate betweenness of my network.
+
+I am sure there must be a better, more efficient way to calculate
+betweenness. Ideally, I would like to just have the City1 - City2 (link)
+information in two columns in an excel file and calculate the
+betweenness from that file directly.
+
+Please provide an optimal solution for this problem. I appreciate your
+time and help.
+
+Thanks,
+Senthil
+
+

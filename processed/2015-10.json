@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2015-10",
+  "messages": [
+    {
+      "id": "msg-d8157aeee4ae",
+      "message_id": "<1445964463.13045.YahooMailBasic@web142606.mail.bf1.yahoo.com>",
+      "from_name": "Avi Weinberg",
+      "from_email_hash": "11d0b5592d62d6c5678fd18d6586e24e0a42862877fc40fe5de16df51db9cace",
+      "date": "2015-10-27T09:47:43-07:00",
+      "subject": "[R-sig-networks] Transformation of J48 Decision Tree into Newick Tree",
+      "subject_clean": "Transformation of J48 Decision Tree into Newick Tree",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have the following J48 decision tree (res):\n\n   >  res\n    J48 pruned tree\n\nPetal.Width <= 0.6: setosa (50.0)\nPetal.Width > 0.6\n| Petal.Width <= 1.7\n| | Petal.Length <= 4.9: versicolor (48.0/1.0)\n| | Petal.Length > 4.9\n| | | Petal.Width <= 1.5: virginica (3.0)\n| | | Petal.Width > 1.5: versicolor (3.0/1.0)\n| Petal.Width > 1.7: virginica (46.0/1.0)\n\nNumber of Leaves : 5\n\nSize of the tree : 9\n\nIt was created in R as followed:\nlibrary(RWeka)\ndata(iris)\nres = J48(Species ~., data = iris)\n\nI would like to transform it to Newick tree using data.tree.",
+      "body_snippet": "I have the following J48 decision tree (res):\n\n   >  res\n    J48 pruned tree\n\nPetal.Width <= 0.6: setosa (50.0)\nPetal.Width > 0.6\n| Petal.Width <= 1.7\n| | Petal.Length <= 4.9: versicolor (48.0/1.0)\n| ",
+      "thread_id": "thread-d8157aeee4ae",
+      "thread_depth": 0,
+      "month": "2015-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d8157aeee4ae",
+      "subject": "Transformation of J48 Decision Tree into Newick Tree",
+      "message_count": 1,
+      "participants": [
+        "Avi Weinberg"
+      ],
+      "started": "2015-10-27T09:47:43-07:00",
+      "last_reply": "2015-10-27T09:47:43-07:00",
+      "root_message_id": "msg-d8157aeee4ae"
+    }
+  ]
+}

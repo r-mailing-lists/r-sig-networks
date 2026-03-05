@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2017-02",
+  "messages": [
+    {
+      "id": "msg-b3e012e7fd31",
+      "message_id": "<AM4PR03MB144199F04346EB39542CE09B995A0@AM4PR03MB1441.eurprd03.prod.outlook.com>",
+      "from_name": "Rufaida Al Breiki",
+      "from_email_hash": "d47d33a2013e7edbdf005a7f6768da2448628cb05be79aa9f27d62c48c256f24",
+      "date": "2017-02-16T12:23:17Z",
+      "subject": "[R-sig-networks] customization of divMigrate plot",
+      "subject_clean": "customization of divMigrate plot",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\n\nI am using diveRsity package to produce migration network plot.\n\nThe input file is a genepop file encoded as 3 digits per allelel of SNPs markers named as \"genepop_file.gen\".\n\nThe migration network was plotted using  \"divMigrate\" function as follows:\n\n\nmigRes <- divMigrate(\"genepop_gen.gen\", plot_network = T, filter_threshold = 0.5)\n\nthe output:\n\n\n\n\n\n[cid:5f3b6ec2-8e7e-44e5-9ace-57ab50065801]\n\nI would appreciate if any one help me to   customize this out put for:\n1- assign different color to each circle \"group\" (1-9)?\n2- modify the groups names in the legend?\n\nThanks in advance,\n\nRufaida\n\n\n\n\n\n\n\n\n\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20170216/6a1fdb7e/attachment-0001.html>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: pastedImage.png\nType: image/png\nSize: 41561 bytes\nDesc: pastedImage.png\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20170216/6a1fdb7e/attachment-0001.png>",
+      "body_snippet": "Dear all,\n\n\nI am using diveRsity package to produce migration network plot.\n\nThe input file is a genepop file encoded as 3 digits per allelel of SNPs markers named as \"genepop_file.gen\".\n\nThe migratio",
+      "thread_id": "thread-b3e012e7fd31",
+      "thread_depth": 0,
+      "month": "2017-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b3e012e7fd31",
+      "subject": "customization of divMigrate plot",
+      "message_count": 1,
+      "participants": [
+        "Rufaida Al Breiki"
+      ],
+      "started": "2017-02-16T12:23:17+00:00",
+      "last_reply": "2017-02-16T12:23:17+00:00",
+      "root_message_id": "msg-b3e012e7fd31"
+    }
+  ]
+}

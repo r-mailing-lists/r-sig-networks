@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2015-12",
+  "messages": [
+    {
+      "id": "msg-138f80f309d1",
+      "message_id": "<248E6FA047A8C746BA491485764190F537123CEE@ESESSMB210.ericsson.se>",
+      "from_name": "Giorgio Garziano",
+      "from_email_hash": "06b7c953da930db8d82cdd266d3b0c0c414998184ad097ea90851e9f5c69005a",
+      "date": "2015-12-11T08:34:17Z",
+      "subject": "[R-sig-networks] packages for community detection and social network analysis",
+      "subject_clean": "packages for community detection and social network analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "SNA, RSiena, latentnet, egonet, tsna.\n\nIn general, take advantage of:\n\nhttp://rseek.org\n\npackage search.\n\nInfo and examples about social network analysis:\n\nhttp://www.r-bloggers.com/?s=social+network+analysis\n\n\n--\nGG\n\nhttp://around-r.blogspot.it\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "SNA, RSiena, latentnet, egonet, tsna.\n\nIn general, take advantage of:\n\nhttp://rseek.org\n\npackage search.\n\nInfo and examples about social network analysis:\n\nhttp://www.r-bloggers.com/?s=social+network+",
+      "thread_id": "thread-138f80f309d1",
+      "thread_depth": 0,
+      "month": "2015-12"
+    },
+    {
+      "id": "msg-2182f96cdccd",
+      "message_id": "<CABtg=Kk1tWPO_=bQKX-W9=43TLn8QPDwRmnXmpU3vgJpCheWyw@mail.gmail.com>",
+      "from_name": "Gábor Csárdi",
+      "from_email_hash": "be1b1aa2bf940edb4d90301c038c97e98b84ed5c8724f0d46a3b2ee263683539",
+      "date": "2015-12-11T09:06:24Z",
+      "subject": "[R-sig-networks] packages for community detection and social network analysis",
+      "subject_clean": "packages for community detection and social network analysis",
+      "in_reply_to": "<248E6FA047A8C746BA491485764190F537123CEE@ESESSMB210.ericsson.se>",
+      "references": [
+        "<248E6FA047A8C746BA491485764190F537123CEE@ESESSMB210.ericsson.se>"
+      ],
+      "body_plain": "The igraph package has ~10 community detection methods implemented.\n\nSee also\nhttp://www.r-pkg.org/search.html?q=community+detection\nhttp://www.r-pkg.org/search.html?q=network+analysis\n\nGabor\n\nOn Fri, Dec 11, 2015 at 8:34 AM, Giorgio Garziano\n<giorgio.garziano at ericsson.com> wrote:\n> SNA, RSiena, latentnet, egonet, tsna.\n>\n> In general, take advantage of:\n>\n> http://rseek.org\n>\n> package search.\n>\n> Info and examples about social network analysis:\n>\n> http://www.r-bloggers.com/?s=social+network+analysis\n>\n>\n> --\n> GG\n>\n> http://around-r.blogspot.it\n>\n>\n>\n>\n>         [[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-networks mailing list\n> R-sig-networks at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-networks",
+      "body_snippet": "The igraph package has ~10 community detection methods implemented.\n\nSee also\nhttp://www.r-pkg.org/search.html?q=community+detection\nhttp://www.r-pkg.org/search.html?q=network+analysis\n\nGabor\n\nOn Fri,",
+      "thread_id": "thread-138f80f309d1",
+      "thread_depth": 1,
+      "month": "2015-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-138f80f309d1",
+      "subject": "packages for community detection and social network analysis",
+      "message_count": 2,
+      "participants": [
+        "Giorgio Garziano",
+        "Gábor Csárdi"
+      ],
+      "started": "2015-12-11T08:34:17+00:00",
+      "last_reply": "2015-12-11T09:06:24+00:00",
+      "root_message_id": "msg-138f80f309d1"
+    }
+  ]
+}

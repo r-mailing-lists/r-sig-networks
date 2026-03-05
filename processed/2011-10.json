@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2011-10",
+  "messages": [
+    {
+      "id": "msg-2477f7a788ff",
+      "message_id": "<CA+YnvbiUoGHb-MqfTiC_BZ4J1FGstBeXhonGnWkPUzgigxKQzw@mail.gmail.com>",
+      "from_name": "Everton Emanuel",
+      "from_email_hash": "8540d8522839b7e11e87a98dfb965b71a8a1cd642f3dda21bcffa8dc25fbe7d7",
+      "date": "2011-10-20T15:31:53-02:00",
+      "subject": "[R-sig-networks] Question concerning network scale-up method",
+      "subject_clean": "Question concerning network scale-up method",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20111020/2fac310f/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20111020/2fac310f/attachment.pl>",
+      "thread_id": "thread-2477f7a788ff",
+      "thread_depth": 0,
+      "month": "2011-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2477f7a788ff",
+      "subject": "Question concerning network scale-up method",
+      "message_count": 1,
+      "participants": [
+        "Everton Emanuel"
+      ],
+      "started": "2011-10-20T15:31:53-02:00",
+      "last_reply": "2011-10-20T15:31:53-02:00",
+      "root_message_id": "msg-2477f7a788ff"
+    }
+  ]
+}

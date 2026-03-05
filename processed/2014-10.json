@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2014-10",
+  "messages": [
+    {
+      "id": "msg-e587df4d7853",
+      "message_id": "<CABzwCXOYchNH4ZVhBD4vtp1k1jW-RV31zpJ=MtFigoH8y3-xSA@mail.gmail.com>",
+      "from_name": "Fatemeh a",
+      "from_email_hash": "f7ee22eb101a07f2190b5519ad7e5b0d01a5725173b03004500eb78cd4ba6f30",
+      "date": "2014-10-21T22:25:30+03:30",
+      "subject": "[R-sig-networks] packages for community detection and social network analysis",
+      "subject_clean": "packages for community detection and social network analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\n I was Wondering whether there is any pakage beside \"igraph\" and \"linkcomm\"\nin R for community detection and social network analysis ?\n\nThank You in advance,\n\n\n-- \nregards\nFatemeh..A\n?\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\n I was Wondering whether there is any pakage beside \"igraph\" and \"linkcomm\"\nin R for community detection and social network analysis ?\n\nThank You in advance,\n\n\n-- \nregards\nFatemeh..A\n?\n\n\t[[al",
+      "thread_id": "thread-e587df4d7853",
+      "thread_depth": 0,
+      "month": "2014-10"
+    },
+    {
+      "id": "msg-ab957684f9fe",
+      "message_id": "<CABzwCXM1ai37ww5LDAZNxt6zZWEC9xda1=4zNg5ns4cwuQeB7Q@mail.gmail.com>",
+      "from_name": "Fatemeh a",
+      "from_email_hash": "f7ee22eb101a07f2190b5519ad7e5b0d01a5725173b03004500eb78cd4ba6f30",
+      "date": "2014-10-25T15:48:14+03:30",
+      "subject": "[R-sig-networks] Linkcomm",
+      "subject_clean": "Linkcomm",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "hi,\nI am running community detection algorithm on my data which\n is not small : nodes :35000 and edges:680000\n\nI try to run the \"linkcomm\" community detection algorithm third times but R\nbecame not responding after stage when it finished calculating Edge\nsimilarities !!, what should I do ?  is it because of the size of the\ngraph? is there any solution or it can not handel  this size of network ?\n\nmy system information:\n\n\nOS :windows 8 -64 bit\n\nProcessor: intel core i7\n\n R 3.1.1\n\n\n\nthank you in advance ,\n\n-- \nregards\nFatemeh\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "hi,\nI am running community detection algorithm on my data which\n is not small : nodes :35000 and edges:680000\n\nI try to run the \"linkcomm\" community detection algorithm third times but R\nbecame not re",
+      "thread_id": "thread-ab957684f9fe",
+      "thread_depth": 0,
+      "month": "2014-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e587df4d7853",
+      "subject": "packages for community detection and social network analysis",
+      "message_count": 1,
+      "participants": [
+        "Fatemeh a"
+      ],
+      "started": "2014-10-21T22:25:30+03:30",
+      "last_reply": "2014-10-21T22:25:30+03:30",
+      "root_message_id": "msg-e587df4d7853"
+    },
+    {
+      "id": "thread-ab957684f9fe",
+      "subject": "Linkcomm",
+      "message_count": 1,
+      "participants": [
+        "Fatemeh a"
+      ],
+      "started": "2014-10-25T15:48:14+03:30",
+      "last_reply": "2014-10-25T15:48:14+03:30",
+      "root_message_id": "msg-ab957684f9fe"
+    }
+  ]
+}

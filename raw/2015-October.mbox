@@ -1,0 +1,33 @@
+From aviwe_1999 at yahoo.com  Tue Oct 27 17:47:43 2015
+From: aviwe_1999 at yahoo.com (Avi Weinberg)
+Date: Tue, 27 Oct 2015 09:47:43 -0700
+Subject: [R-sig-networks] Transformation of J48 Decision Tree into Newick
+	Tree
+Message-ID: <1445964463.13045.YahooMailBasic@web142606.mail.bf1.yahoo.com>
+
+ I have the following J48 decision tree (res):
+
+   >  res
+    J48 pruned tree
+
+Petal.Width <= 0.6: setosa (50.0)
+Petal.Width > 0.6
+| Petal.Width <= 1.7
+| | Petal.Length <= 4.9: versicolor (48.0/1.0)
+| | Petal.Length > 4.9
+| | | Petal.Width <= 1.5: virginica (3.0)
+| | | Petal.Width > 1.5: versicolor (3.0/1.0)
+| Petal.Width > 1.7: virginica (46.0/1.0)
+
+Number of Leaves : 5
+
+Size of the tree : 9
+
+It was created in R as followed:
+library(RWeka)
+data(iris)
+res = J48(Species ~., data = iris)
+
+I would like to transform it to Newick tree using data.tree.
+
+

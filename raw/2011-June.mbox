@@ -1,0 +1,19 @@
+From sebastian.daza at gmail.com  Tue Jun  7 20:37:27 2011
+From: sebastian.daza at gmail.com (=?ISO-8859-1?Q?Sebasti=E1n_Daza?=)
+Date: Tue, 07 Jun 2011 13:37:27 -0500
+Subject: [R-sig-networks] homophily
+Message-ID: <4DEE6FE7.6040205@gmail.com>
+
+Dear all,
+Does anyone know how to get a measure of homophily for dyads using R?  I 
+am not sure if kappa coefficient is the best way to measure homophily in 
+this case. Are there better ways to measure it? Any suggestion will be 
+welcome.
+
+Thank you in advance.
+
+-- 
+Sebasti?n Daza
+sebastian.daza at gmail.com
+
+

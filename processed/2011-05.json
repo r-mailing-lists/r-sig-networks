@@ -1,0 +1,183 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2011-05",
+  "messages": [
+    {
+      "id": "msg-9c2ccd97197c",
+      "message_id": "<4DD41DDE.2000106@gmail.com>",
+      "from_name": "Sebastián Daza",
+      "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
+      "date": "2011-05-18T14:28:30-05:00",
+      "subject": "[R-sig-networks] network data and grouping analysis question",
+      "subject_clean": "network data and grouping analysis question",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone,\nI have a dataset of friendship with this format:\n\n      ego alter\n4746    1     2\n9742    1     3\n14738   1    NA\n4747    2    NA\n9743    2    3\n14739   2    1\n4748    3    13\n9744    3   5\n14740   3    14\n4749    4    NA\n9745    4    NA\n14741   4    NA\n4750    5    NA\n9746    5    13\n14742   5    10\n4751    6   12\n9747    6     7\n...\n\n\nNA means that individuals don't select any friend. Does anyone know how \nto format this dataset to use sna or igraph packages? I don't know how \nto convert it into a matrix or a edgelist in R without losing isolated \nindividuals .\n\nNext question, anyone knows if there is a package to perform a  Moody's \nCrowds routine to identify groups using R, or other algorithms designed \nto search groups by maximizing modularity scores?\n\nThank  you in advance!\n-- \nSebasti?n Daza\nsebastian.daza at gmail.com",
+      "body_snippet": "Hi everyone,\nI have a dataset of friendship with this format:\n\n      ego alter\n4746    1     2\n9742    1     3\n14738   1    NA\n4747    2    NA\n9743    2    3\n14739   2    1\n4748    3    13\n9744    3  ",
+      "thread_id": "thread-9c2ccd97197c",
+      "thread_depth": 0,
+      "month": "2011-05"
+    },
+    {
+      "id": "msg-ce6785debd5c",
+      "message_id": "<4DD421D6.7060305@gmail.com>",
+      "from_name": "Sebastián Daza",
+      "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
+      "date": "2011-05-18T14:45:26-05:00",
+      "subject": "[R-sig-networks] [R] data network format and grouping analysis",
+      "subject_clean": "data network format and grouping analysis",
+      "in_reply_to": "<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>",
+      "references": [
+        "<4DD40EBB.9030501@gmail.com>",
+        "<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>"
+      ],
+      "body_plain": "Thank you Scott.\nNA means there is no edge.  If I exclude NAs, I could lose isolated \nindividuals. That's why my question. Each ego selected three friends in \nmy database. If an ego didn't select any friend, it had only NAs in \nalter column. Any ideas?\n\n\nOn 5/18/2011 2:33 PM, Scott Chamberlain wrote:\n> The following works to get an igraph object from a matrix edgelist:\n>\n> dat2 <- matrix(rep(seq(1,5,1), 4), nrow=10, ncol=2)\n> graph.edgelist( dat2 )\n>\n>\n> I tried with NA's but graph.edgelist did not allow NA's. Wouldn't you\n> just leave those rows out with NA's in them? An NA means there is no\n> edge, right?\n>\n> Scott\n>\n> On Wednesday, May 18, 2011 at 1:23 PM, Sebasti?n Daza wrote:\n>\n>> Hi everyone,\n>> I have a dataset of friendship with this format:\n>>\n>> ego alter\n>> 4746 1 2\n>> 9742 1 3\n>> 14738 1 NA\n>> 4747 2 NA\n>> 9743 2 3\n>> 14739 2 1\n>> 4748 3 13\n>> 9744 3 5\n>> 14740 3 14\n>> 4749 4 NA\n>> 9745 4 NA\n>> 14741 4 NA\n>> 4750 5 NA\n>> 9746 5 13\n>> 14742 5 10\n>> 4751 6 12\n>> 9747 6 7\n>> ...\n>>\n>>\n>> NA means that individuals don't select any friend. DDoes anyone know how\n>> to format this dataset to use sna or igraph packages? I don't know how\n>> to convert it into a matrix or a edgelist in R without losing isolated\n>> individuals .\n>>\n>> Next question, anyone knows if there is a package to perform a Moody's\n>> Crowds routine to identify groups using R, or other algorithms designed\n>> to search groups by maximizing modularity scores?\n>>\n>> Thank you in advance!\n>>\n>> --\n>> Sebasti?n Daza\n>> sebastian.daza at gmail.com <mailto:sebastian.daza at gmail.com>\n>>\n>> ______________________________________________\n>> R-help at r-project.org <mailto:R-help at r-project.org> mailing list\n>> https://stat.ethz.ch/mailman/listinfo/r-help\n>> PLEASE do read the posting guide\n>> http://www.R-project.org/posting-guide.html\n>> and provide commented, minimal, self-contained, reproducible code.\n>\n\n-- \nSebasti?n Daza\nsebastian.daza at gmail.com",
+      "body_snippet": "Thank you Scott.\nNA means there is no edge.  If I exclude NAs, I could lose isolated \nindividuals. That's why my question. Each ego selected three friends in \nmy database. If an ego didn't select any ",
+      "thread_id": "thread-ce6785debd5c",
+      "thread_depth": 0,
+      "month": "2011-05"
+    },
+    {
+      "id": "msg-ddd9d7ea8033",
+      "message_id": "<BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>",
+      "from_name": "Mathijs de Vaan",
+      "from_email_hash": "35893a7e7cb55db3f041c18be84433deb46983f1e690824a41d61bf826b13ead",
+      "date": "2011-05-18T21:48:54+02:00",
+      "subject": "[R-sig-networks] [R] data network format and grouping analysis",
+      "subject_clean": "data network format and grouping analysis",
+      "in_reply_to": "<4DD421D6.7060305@gmail.com>",
+      "references": [
+        "<4DD40EBB.9030501@gmail.com>",
+        "<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>",
+        "<4DD421D6.7060305@gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110518/62bb5cde/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110518/62bb5cde/attachment.pl>",
+      "thread_id": "thread-ce6785debd5c",
+      "thread_depth": 1,
+      "month": "2011-05"
+    },
+    {
+      "id": "msg-0777f0d49d92",
+      "message_id": "<4DD43F2C.4080809@gmail.com>",
+      "from_name": "Sebastián Daza",
+      "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
+      "date": "2011-05-18T16:50:36-05:00",
+      "subject": "[R-sig-networks] [R] data network format and grouping analysis",
+      "subject_clean": "data network format and grouping analysis",
+      "in_reply_to": "<BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>",
+      "references": [
+        "<4DD40EBB.9030501@gmail.com>",
+        "<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>",
+        "<4DD421D6.7060305@gmail.com>",
+        "<BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>"
+      ],
+      "body_plain": "Thank you Mathijs, but now I have several graphs with loops that don't \nmean anything. Isn't there another way to do it? Do you know about some \nclear document that deals with these kind of data management problems in \nR and sna?\n\nSebastian\n\nOn 5/18/2011 2:48 PM, Mathijs de Vaan wrote:\n> Simply add an edge between ego and ego for each ego.\n>\n> Mathijs\n>\n> 2011/5/18 Sebasti?n Daza <sebastian.daza at gmail.com\n> <mailto:sebastian.daza at gmail.com>>\n>\n>     Thank you Scott.\n>     NA means there is no edge.  If I exclude NAs, I could lose isolated\n>     individuals. That's why my question. Each ego selected three friends\n>     in my database. If an ego didn't select any friend, it had only NAs\n>     in alter column. Any ideas?\n>\n>\n>     On 5/18/2011 2:33 PM, Scott Chamberlain wrote:\n>\n>         The following works to get an igraph object from a matrix edgelist:\n>\n>         dat2 <- matrix(rep(seq(1,5,1), 4), nrow=10, ncol=2)\n>         graph.edgelist( dat2 )\n>\n>\n>         I tried with NA's but graph.edgelist did not allow NA's.\n>         Wouldn't you\n>         just leave those rows out with NA's in them? An NA means there is no\n>         edge, right?\n>\n>         Scott\n>\n>         On Wednesday, May 18, 2011 at 1:23 PM, Sebasti?n Daza wrote:\n>\n>             Hi everyone,\n>             I have a dataset of friendship with this format:\n>\n>             ego alter\n>             4746 1 2\n>             9742 1 3\n>             14738 1 NA\n>             4747 2 NA\n>             9743 2 3\n>             14739 2 1\n>             4748 3 13\n>             9744 3 5\n>             14740 3 14\n>             4749 4 NA\n>             9745 4 NA\n>             14741 4 NA\n>             4750 5 NA\n>             9746 5 13\n>             14742 5 10\n>             4751 6 12\n>             9747 6 7\n>             ...\n>\n>\n>             NA means that individuals don't select any friend. DDoes\n>             anyone know how\n>             to format this dataset to use sna or igraph packages? I\n>             don't know how\n>             to convert it into a matrix or a edgelist in R without\n>             losing isolated\n>             individuals .\n>\n>             Next question, anyone knows if there is a package to perform\n>             a Moody's\n>             Crowds routine to identify groups using R, or other\n>             algorithms designed\n>             to search groups by maximizing modularity scores?\n>\n>             Thank you in advance!\n>\n>             --\n>             Sebasti?n Daza\n>             sebastian.daza at gmail.com <mailto:sebastian.daza at gmail.com>\n>             <mailto:sebastian.daza at gmail.com\n>             <mailto:sebastian.daza at gmail.com>>\n>\n>             ______________________________________________\n>             R-help at r-project.org <mailto:R-help at r-project.org>\n>             <mailto:R-help at r-project.org <mailto:R-help at r-project.org>>\n>             mailing list\n>             https://stat.ethz.ch/mailman/listinfo/r-help\n>             PLEASE do read the posting guide\n>             http://www.R-project.org/posting-guide.html\n>             and provide commented, minimal, self-contained, reproducible\n>             code.\n>\n>\n>\n>     --\n>     Sebasti?n Daza\n>     sebastian.daza at gmail.com <mailto:sebastian.daza at gmail.com>\n>\n>     _______________________________________________\n>     R-sig-networks mailing list\n>     R-sig-networks at r-project.org <mailto:R-sig-networks at r-project.org>\n>     https://stat.ethz.ch/mailman/listinfo/r-sig-networks\n>\n>\n\n-- \nSebasti?n Daza\nsebastian.daza at gmail.com",
+      "body_snippet": "Thank you Mathijs, but now I have several graphs with loops that don't \nmean anything. Isn't there another way to do it? Do you know about some \nclear document that deals with these kind of data manag",
+      "thread_id": "thread-ce6785debd5c",
+      "thread_depth": 2,
+      "month": "2011-05"
+    },
+    {
+      "id": "msg-fd320f4fd184",
+      "message_id": "<A3BA42D8-4508-4B75-8209-DC0E2D33C01C@babelgraph.org>",
+      "from_name": "Gary Weissman",
+      "from_email_hash": "c52d1ea1ffdad8266174fc4546e86c90c8bc1d15c1d0261d0f804f2e4aae9367",
+      "date": "2011-05-19T10:20:28-04:00",
+      "subject": "[R-sig-networks] R-sig-networks Digest, Vol 4, Issue 1",
+      "subject_clean": "R-sig-networks Digest, Vol 4, Issue 1",
+      "in_reply_to": "<mailman.15.1305799204.11042.r-sig-networks@r-project.org>",
+      "references": [
+        "<mailman.15.1305799204.11042.r-sig-networks@r-project.org>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110519/88b221d4/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110519/88b221d4/attachment.pl>",
+      "thread_id": "thread-fd320f4fd184",
+      "thread_depth": 0,
+      "month": "2011-05"
+    },
+    {
+      "id": "msg-9d307173bbe0",
+      "message_id": "<4DD5B856.4070302@gmail.com>",
+      "from_name": "Sebastián Daza",
+      "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
+      "date": "2011-05-19T19:39:50-05:00",
+      "subject": "[R-sig-networks] identifying groups",
+      "subject_clean": "identifying groups",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone,\nDoes anyone know if there is a package to perform a  Moody's Crowds \nroutine to identify groups using R, or other algorithms designed to \nsearch groups by maximizing modularity scores? Otherwise, other packages \nto identify groups, or other programs to do it.\n\nI have about 80 networks clustered in schools. So, I have to identify \ngroups for each school.\n\nThank  you in advance!\n-- \nSebasti?n Daza\nsebastian.daza at gmail.com",
+      "body_snippet": "Hi everyone,\nDoes anyone know if there is a package to perform a  Moody's Crowds \nroutine to identify groups using R, or other algorithms designed to \nsearch groups by maximizing modularity scores? Ot",
+      "thread_id": "thread-9d307173bbe0",
+      "thread_depth": 0,
+      "month": "2011-05"
+    },
+    {
+      "id": "msg-2e1259da46fa",
+      "message_id": "<BANLkTi=zQKFORA_QZk68-UdQMZQb8zGWzw@mail.gmail.com>",
+      "from_name": "Gábor Csárdi",
+      "from_email_hash": "be1b1aa2bf940edb4d90301c038c97e98b84ed5c8724f0d46a3b2ee263683539",
+      "date": "2011-05-20T15:53:11-04:00",
+      "subject": "[R-sig-networks] identifying groups",
+      "subject_clean": "identifying groups",
+      "in_reply_to": "<4DD5B856.4070302@gmail.com>",
+      "references": [
+        "<4DD5B856.4070302@gmail.com>"
+      ],
+      "body_plain": "Sebasti?n,\n\nthere are several algorithms in the igraph package, look for 'community' here:\nhttp://igraph.sourceforge.net/doc/R/00Index.html\n\nG?bor\n\n2011/5/19 Sebasti?n Daza <sebastian.daza at gmail.com>:\n> Hi everyone,\n> Does anyone know if there is a package to perform a ?Moody's Crowds routine\n> to identify groups using R, or other algorithms designed to search groups by\n> maximizing modularity scores? Otherwise, other packages to identify groups,\n> or other programs to do it.\n>\n> I have about 80 networks clustered in schools. So, I have to identify groups\n> for each school.\n>\n> Thank ?you in advance!\n> --\n> Sebasti?n Daza\n> sebastian.daza at gmail.com\n>\n> _______________________________________________\n> R-sig-networks mailing list\n> R-sig-networks at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-networks\n>",
+      "body_snippet": "Sebasti?n,\n\nthere are several algorithms in the igraph package, look for 'community' here:\nhttp://igraph.sourceforge.net/doc/R/00Index.html\n\nG?bor\n\n2011/5/19 Sebasti?n Daza <sebastian.daza at gmail.co",
+      "thread_id": "thread-9d307173bbe0",
+      "thread_depth": 1,
+      "month": "2011-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9c2ccd97197c",
+      "subject": "network data and grouping analysis question",
+      "message_count": 1,
+      "participants": [
+        "Sebastián Daza"
+      ],
+      "started": "2011-05-18T14:28:30-05:00",
+      "last_reply": "2011-05-18T14:28:30-05:00",
+      "root_message_id": "msg-9c2ccd97197c"
+    },
+    {
+      "id": "thread-ce6785debd5c",
+      "subject": "data network format and grouping analysis",
+      "message_count": 3,
+      "participants": [
+        "Mathijs de Vaan",
+        "Sebastián Daza"
+      ],
+      "started": "2011-05-18T14:45:26-05:00",
+      "last_reply": "2011-05-18T16:50:36-05:00",
+      "root_message_id": "msg-ce6785debd5c"
+    },
+    {
+      "id": "thread-fd320f4fd184",
+      "subject": "R-sig-networks Digest, Vol 4, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Gary Weissman"
+      ],
+      "started": "2011-05-19T10:20:28-04:00",
+      "last_reply": "2011-05-19T10:20:28-04:00",
+      "root_message_id": "msg-fd320f4fd184"
+    },
+    {
+      "id": "thread-9d307173bbe0",
+      "subject": "identifying groups",
+      "message_count": 2,
+      "participants": [
+        "Gábor Csárdi",
+        "Sebastián Daza"
+      ],
+      "started": "2011-05-19T19:39:50-05:00",
+      "last_reply": "2011-05-20T15:53:11-04:00",
+      "root_message_id": "msg-9d307173bbe0"
+    }
+  ]
+}

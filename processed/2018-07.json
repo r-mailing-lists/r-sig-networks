@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2018-07",
+  "messages": [
+    {
+      "id": "msg-6cee9fa7d11c",
+      "message_id": "<1710078618.430866.1532880701907@mail.yahoo.com>",
+      "from_name": "Manolito Perez",
+      "from_email_hash": "e3130726227370981bd8141bd512aa33b45e39586517ae1c7672e1a49b2a0402",
+      "date": "2018-07-29T16:11:41Z",
+      "subject": "[R-sig-networks] Subsets of edges with igraph",
+      "subject_clean": "Subsets of edges with igraph",
+      "in_reply_to": null,
+      "references": [
+        "<1710078618.430866.1532880701907.ref@mail.yahoo.com>"
+      ],
+      "body_plain": "Hi all,?\nFirst of all, I have to say that I am new to R, and my first impression is very good, so I am determined to become proficient in it. Well, I have a simple undirected graph in the package 'igraph', and I want to generate all subsets of its edges. I have seen two functions that do that, one being 'combn', from the package 'combinat', and the other one being 'set_combn', from the package 'sets' (if I remember correctly). However, none of them does what I want, and I don't quite understand what is happenning. More precisely, my graph has the following edge list:\n? ? > mylist\n? ? ? ? ?[,1] [,2][1,]? ? 1? ? 2[2,]? ? 2? ? 3[3,]? ? 1? ? 3\nNow, I want to generate all the subsets with two edges, and I call the function 'combn', which gives the following result:?\n? ? > combn(mylist, 2)\n? ? ? ? ?[,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12] [,13] [,14] [,15]\n[1,]? ? 1? ? 1? ? 1? ? 1? ? 1? ? 2? ? 2? ? 2? ? 2? ? ?1? ? ?1? ? ?1? ? ?2? ? ?2? ? ?3\n[2,]? ? 2? ? 1? ? 2? ? 3? ? 3? ? 1? ? 2? ? 3? ? 3? ? ?2? ? ?3? ? ?3? ? ?3? ? ?3? ? ?3\n\nFirst of all, the result are pairs of vertices, and not pairs of edges, that should contain four vertices, if I understand correctly. Second, there are repeated pairs, and combinations should contain no repetitions, right?\nAs for the other function, 'set_combn', it gives the following result:\n? ? > set_combn(mylist,2)?\n? ? {{1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}}\nwhich is also incorrect. Any help, please??\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,?\nFirst of all, I have to say that I am new to R, and my first impression is very good, so I am determined to become proficient in it. Well, I have a simple undirected graph in the package 'igr",
+      "thread_id": "thread-6cee9fa7d11c",
+      "thread_depth": 0,
+      "month": "2018-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6cee9fa7d11c",
+      "subject": "Subsets of edges with igraph",
+      "message_count": 1,
+      "participants": [
+        "Manolito Perez"
+      ],
+      "started": "2018-07-29T16:11:41+00:00",
+      "last_reply": "2018-07-29T16:11:41+00:00",
+      "root_message_id": "msg-6cee9fa7d11c"
+    }
+  ]
+}

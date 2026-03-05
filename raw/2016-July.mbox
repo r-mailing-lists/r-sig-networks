@@ -1,0 +1,176 @@
+From erick_lebrun at baylor.edu  Wed Jul 27 23:56:46 2016
+From: erick_lebrun at baylor.edu (Erick LeBrun)
+Date: Wed, 27 Jul 2016 16:56:46 -0500
+Subject: [R-sig-networks] Questions about interpreting ERGM goodness of fit
+Message-ID: <2e1b01ab-19cc-e880-d160-9fff3030153e@baylor.edu>
+
+Hello all,
+
+I apologize in advance as I am fairly new to networks. I have two 
+networks generated in R with sample sites as nodes representing 
+microbial community relatedness between sites (as bray-curtis distance 
+from an OTU counts table). I am interested in looking at two categorical 
+groupings as factors in network design and have built a few ERGMs to 
+explore this. Everything looks good in mcmc.diagnostics() and summary() 
+and the anova.ergm() looks good as well.
+
+My problem occurs in testing goodness of fit (gof()). The degree graph 
+is not too bad but the edge-wise shared partners graph for the data 
+peaks far to the right of the simulated (for example simulated will peak 
+at~3 and actual data has a small peak at ~3 and then a huge one at ~7.
+
+I know that there are probably important factors missing from these 
+models and I am wondering if that may be what is causing the issue(?) My 
+main interest is in demonstrating importance in my categorical 
+variables. Or is this indicative of some larger problem? I have looked 
+through many resources explaining how to generate goodness of fit 
+metrics but have not found anything to help me interpret this issue.
+
+Thank you in advance!
+
+Erick
+
+
+From philip.leifeld at ipw.unibe.ch  Thu Jul 28 00:11:59 2016
+From: philip.leifeld at ipw.unibe.ch (Philip Leifeld)
+Date: Wed, 27 Jul 2016 23:11:59 +0100
+Subject: [R-sig-networks] Questions about interpreting ERGM goodness of
+ fit
+In-Reply-To: <2e1b01ab-19cc-e880-d160-9fff3030153e@baylor.edu>
+References: <2e1b01ab-19cc-e880-d160-9fff3030153e@baylor.edu>
+Message-ID: <8a08e546-f56e-ca08-f64d-9e58f49848ec@ipw.unibe.ch>
+
+Hi Erick,
+
+This indicates a lack of theoretical understanding of what is creating 
+your network topology. Most likely, the interplay of endogenous network 
+statistics you have chosen collectively produces networks that do not 
+look like the network you observe. It is less likely, but may be the 
+case, that there is an omitted exogenous variable the inclusion of which 
+would solve the problem. I would think more carefully about what 
+theoretical mechanisms may be at work with regard to the endogenous 
+dependencies. In the absence of a good theory, GWESP or transitiveties 
+may be candidate model terms that can potentially solve the issue. The 
+weird distribution with peaks at 3 and 7 may indicate that the problem 
+may have occurred at the data collection stage, but I am not familiar 
+with your field or application. Perhaps because you binarized the 
+distance matrix and incurred a severe loss of information? In that case, 
+you may want to try the GERGM package for weighted ERGMs, or perhaps 
+model the original bipartite network before applying the distance 
+measure (in case it was binary). You may also want to look at the xergm 
+package, which has a replacement for statnet's gof function that adds a 
+couple of interesting extra functions, like more auxiliary statistics 
+for comparison, ROC and PR curves for assessing predictive performance, 
+and out-of-sample GOF.
+
+Take care,
+
+Philip
+
+On 27/07/16 22:56, Erick LeBrun wrote:
+> Hello all,
+>
+> I apologize in advance as I am fairly new to networks. I have two
+> networks generated in R with sample sites as nodes representing
+> microbial community relatedness between sites (as bray-curtis distance
+> from an OTU counts table). I am interested in looking at two categorical
+> groupings as factors in network design and have built a few ERGMs to
+> explore this. Everything looks good in mcmc.diagnostics() and summary()
+> and the anova.ergm() looks good as well.
+>
+> My problem occurs in testing goodness of fit (gof()). The degree graph
+> is not too bad but the edge-wise shared partners graph for the data
+> peaks far to the right of the simulated (for example simulated will peak
+> at~3 and actual data has a small peak at ~3 and then a huge one at ~7.
+>
+> I know that there are probably important factors missing from these
+> models and I am wondering if that may be what is causing the issue(?) My
+> main interest is in demonstrating importance in my categorical
+> variables. Or is this indicative of some larger problem? I have looked
+> through many resources explaining how to generate goodness of fit
+> metrics but have not found anything to help me interpret this issue.
+>
+> Thank you in advance!
+>
+> Erick
+>
+> _______________________________________________
+> R-sig-networks mailing list
+> R-sig-networks at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-networks
+
+
+From Erick_LeBrun at baylor.edu  Thu Jul 28 15:52:53 2016
+From: Erick_LeBrun at baylor.edu (LeBrun, Erick)
+Date: Thu, 28 Jul 2016 13:52:53 +0000
+Subject: [R-sig-networks] Questions about interpreting ERGM goodness of
+ fit
+In-Reply-To: <8a08e546-f56e-ca08-f64d-9e58f49848ec@ipw.unibe.ch>
+References: <2e1b01ab-19cc-e880-d160-9fff3030153e@baylor.edu>
+	<8a08e546-f56e-ca08-f64d-9e58f49848ec@ipw.unibe.ch>
+Message-ID: <MWHPR06MB297400DDA69927764E17FFC680000@MWHPR06MB2974.namprd06.prod.outlook.com>
+
+Thank you Philip,
+
+I have played around with  introducing gwesp and it does not seem to shift the GOF at all. I feared it may have something to do fundamentally with the network. I think I may be losing information (i.e. weights) converting formats. I start with a phyloseq imported from a biom file and then build an igraph network. For the ERGM I am converting the igraph using as.network() from the Intergraph package. I think here I may be losing weights or other information.
+
+Loss of information at the data level may also be the answer as the networks are related in that one data set is indirectly  derived from the other and I see the edge wise shift get worse between the two. I will revisit it.
+
+I appreciate the assist!
+Erick
+
+Erick LeBrun
+PhD Student
+Kang Microbial Ecology Lab
+Erick_leBrun at baylor.edu
+
+
+-----Original Message-----
+From: Philip Leifeld [mailto:philip.leifeld at ipw.unibe.ch] 
+Sent: Wednesday, July 27, 2016 5:12 PM
+To: r-sig-networks at r-project.org
+Cc: LeBrun, Erick <Erick_LeBrun at baylor.edu>; philip.leifeld at glasgow.ac.uk
+Subject: Re: [R-sig-networks] Questions about interpreting ERGM goodness of fit
+
+Hi Erick,
+
+This indicates a lack of theoretical understanding of what is creating your network topology. Most likely, the interplay of endogenous network statistics you have chosen collectively produces networks that do not look like the network you observe. It is less likely, but may be the case, that there is an omitted exogenous variable the inclusion of which would solve the problem. I would think more carefully about what theoretical mechanisms may be at work with regard to the endogenous dependencies. In the absence of a good theory, GWESP or transitiveties may be candidate model terms that can potentially solve the issue. The weird distribution with peaks at 3 and 7 may indicate that the problem may have occurred at the data collection stage, but I am not familiar with your field or application. Perhaps because you binarized the distance matrix and incurred a severe loss of information? In that case, you may want to try the GERGM package for weighted ERGMs, or perhaps model the original bipartite network before applying the distance measure (in case it was binary). You may also want to look at the xergm package, which has a replacement for statnet's gof function that adds a couple of interesting extra functions, like more auxiliary statistics for comparison, ROC and PR curves for assessing predictive performance, and out-of-sample GOF.
+
+Take care,
+
+Philip
+
+On 27/07/16 22:56, Erick LeBrun wrote:
+> Hello all,
+>
+> I apologize in advance as I am fairly new to networks. I have two 
+> networks generated in R with sample sites as nodes representing 
+> microbial community relatedness between sites (as bray-curtis distance 
+> from an OTU counts table). I am interested in looking at two 
+> categorical groupings as factors in network design and have built a 
+> few ERGMs to explore this. Everything looks good in mcmc.diagnostics() 
+> and summary() and the anova.ergm() looks good as well.
+>
+> My problem occurs in testing goodness of fit (gof()). The degree graph 
+> is not too bad but the edge-wise shared partners graph for the data 
+> peaks far to the right of the simulated (for example simulated will 
+> peak
+> at~3 and actual data has a small peak at ~3 and then a huge one at ~7.
+>
+> I know that there are probably important factors missing from these 
+> models and I am wondering if that may be what is causing the issue(?) 
+> My main interest is in demonstrating importance in my categorical 
+> variables. Or is this indicative of some larger problem? I have looked 
+> through many resources explaining how to generate goodness of fit 
+> metrics but have not found anything to help me interpret this issue.
+>
+> Thank you in advance!
+>
+> Erick
+>
+> _______________________________________________
+> R-sig-networks mailing list
+> R-sig-networks at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-networks
+
+

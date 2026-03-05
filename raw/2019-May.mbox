@@ -1,0 +1,31 @@
+From jvm|rc@ @end|ng |rom gm@||@com  Thu May  9 03:21:14 2019
+From: jvm|rc@ @end|ng |rom gm@||@com (=?UTF-8?B?WsOpIFZpbsOtY2l1cw==?=)
+Date: Wed, 8 May 2019 22:21:14 -0300
+Subject: [R-sig-networks] spectralGraphTopology release 0.1.0 is on CRAN
+Message-ID: <CAB6kXFzwQ9R3v1+rQiCAahTSH=GSYG_QEc=YLaEra0GmCdruPQ@mail.gmail.com>
+
+Hi everyone,
+
+I'm glad to announce the very first release of the spectralGraphTopology
+package on CRAN.  spectralGraphTopology provides functions to estimate
+undirected weighted graphs from observational data.  It implements the
+methods and algorithms recently developed in
+https://arxiv.org/abs/1904.09792 and a more well-known graph clustering
+method published in https://dl.acm.org/citation.cfm?id=3016174.
+
+spectralGraphTopology lives on GitHub:
+https://github.com/dppalomar/spectralGraphTopology.  We welcome all sorts
+of contributions and feedback.  See
+https://mirca.github.io/spectralGraphTopology for documentation.
+
+Thanks,
+Vin?cius
+
+-- 
+webpage: https://mirca.github.io
+github: @mirca <https://www.github.com/mirca>
+twitter: @mircaze <https://www.twitter.com/mircaze>
+
+	[[alternative HTML version deleted]]
+
+

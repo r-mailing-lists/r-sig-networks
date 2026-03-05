@@ -1,0 +1,53 @@
+From Ralbreiki7 at hotmail.com  Thu Feb 16 13:23:17 2017
+From: Ralbreiki7 at hotmail.com (Rufaida Al Breiki)
+Date: Thu, 16 Feb 2017 12:23:17 +0000
+Subject: [R-sig-networks] customization of divMigrate plot
+Message-ID: <AM4PR03MB144199F04346EB39542CE09B995A0@AM4PR03MB1441.eurprd03.prod.outlook.com>
+
+Dear all,
+
+
+I am using diveRsity package to produce migration network plot.
+
+The input file is a genepop file encoded as 3 digits per allelel of SNPs markers named as "genepop_file.gen".
+
+The migration network was plotted using  "divMigrate" function as follows:
+
+
+migRes <- divMigrate("genepop_gen.gen", plot_network = T, filter_threshold = 0.5)
+
+the output:
+
+
+
+
+
+[cid:5f3b6ec2-8e7e-44e5-9ace-57ab50065801]
+
+I would appreciate if any one help me to   customize this out put for:
+1- assign different color to each circle "group" (1-9)?
+2- modify the groups names in the legend?
+
+Thanks in advance,
+
+Rufaida
+
+
+
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20170216/6a1fdb7e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImage.png
+Type: image/png
+Size: 41561 bytes
+Desc: pastedImage.png
+URL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20170216/6a1fdb7e/attachment-0001.png>
+

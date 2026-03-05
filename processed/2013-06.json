@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2013-06",
+  "messages": [
+    {
+      "id": "msg-c2fd6bbf950e",
+      "message_id": "<alpine.LNX.2.00.1306261026330.22894@salmo.appl-ecosys.com>",
+      "from_name": "Rich Shepard",
+      "from_email_hash": "fae16a7dbae64fd8dac1e2b7eb51dd8c7aa1e1ecad85248ae3b54421c4e0babc",
+      "date": "2013-06-26T10:38:11-07:00",
+      "subject": "[R-sig-networks] Applying PLS-PM to Environmental Regulations",
+      "subject_clean": "Applying PLS-PM to Environmental Regulations",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I'm brand new to PLS-PM but think that it's the most appropriate approach\nfor my analytical need: developing indices of beneficial uses of water\nbodies. I've read Gaston Sanchez's excellent book on 'PLS Path Modeling With\nR' and am going through it again. I believe that I understand how to\nstructure the network of manifest and latent variables and set up the R data\nstructures; time will tell if my understanding is sufficiently complete.\n\n   The few relevant references to PLS-PM (or each part separately) suggest\nthat use of this analytical approach has focused on marketing and economic\nresearch rather than applied environmental science. This is not a problem.\nWhat I would appreciate are pointers to examples of PLS-PM applied to highly\ncomplex concepts that I can use to support using this approach in a\ndifferent context.\n\nThanks in advance,\n\nRich\n\n-- \nRichard B. Shepard, Ph.D.          |      Have knowledge, will travel.\nApplied Ecosystem Services, Inc.   |\n<http://www.appl-ecosys.com>     Voice: 503-667-4517      Fax: 503-667-8863",
+      "body_snippet": "I'm brand new to PLS-PM but think that it's the most appropriate approach\nfor my analytical need: developing indices of beneficial uses of water\nbodies. I've read Gaston Sanchez's excellent book on 'P",
+      "thread_id": "thread-c2fd6bbf950e",
+      "thread_depth": 0,
+      "month": "2013-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c2fd6bbf950e",
+      "subject": "Applying PLS-PM to Environmental Regulations",
+      "message_count": 1,
+      "participants": [
+        "Rich Shepard"
+      ],
+      "started": "2013-06-26T10:38:11-07:00",
+      "last_reply": "2013-06-26T10:38:11-07:00",
+      "root_message_id": "msg-c2fd6bbf950e"
+    }
+  ]
+}

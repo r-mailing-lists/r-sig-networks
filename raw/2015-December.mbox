@@ -1,0 +1,79 @@
+From giorgio.garziano at ericsson.com  Fri Dec 11 09:34:17 2015
+From: giorgio.garziano at ericsson.com (Giorgio Garziano)
+Date: Fri, 11 Dec 2015 08:34:17 +0000
+Subject: [R-sig-networks] packages for community detection and social
+ network analysis
+Message-ID: <248E6FA047A8C746BA491485764190F537123CEE@ESESSMB210.ericsson.se>
+
+SNA, RSiena, latentnet, egonet, tsna.
+
+In general, take advantage of:
+
+http://rseek.org
+
+package search.
+
+Info and examples about social network analysis:
+
+http://www.r-bloggers.com/?s=social+network+analysis
+
+
+--
+GG
+
+http://around-r.blogspot.it
+
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From csardi.gabor at gmail.com  Fri Dec 11 10:06:24 2015
+From: csardi.gabor at gmail.com (=?UTF-8?B?R8OhYm9yIENzw6FyZGk=?=)
+Date: Fri, 11 Dec 2015 09:06:24 +0000
+Subject: [R-sig-networks] packages for community detection and social
+ network analysis
+In-Reply-To: <248E6FA047A8C746BA491485764190F537123CEE@ESESSMB210.ericsson.se>
+References: <248E6FA047A8C746BA491485764190F537123CEE@ESESSMB210.ericsson.se>
+Message-ID: <CABtg=Kk1tWPO_=bQKX-W9=43TLn8QPDwRmnXmpU3vgJpCheWyw@mail.gmail.com>
+
+The igraph package has ~10 community detection methods implemented.
+
+See also
+http://www.r-pkg.org/search.html?q=community+detection
+http://www.r-pkg.org/search.html?q=network+analysis
+
+Gabor
+
+On Fri, Dec 11, 2015 at 8:34 AM, Giorgio Garziano
+<giorgio.garziano at ericsson.com> wrote:
+> SNA, RSiena, latentnet, egonet, tsna.
+>
+> In general, take advantage of:
+>
+> http://rseek.org
+>
+> package search.
+>
+> Info and examples about social network analysis:
+>
+> http://www.r-bloggers.com/?s=social+network+analysis
+>
+>
+> --
+> GG
+>
+> http://around-r.blogspot.it
+>
+>
+>
+>
+>         [[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-networks mailing list
+> R-sig-networks at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-networks
+
+

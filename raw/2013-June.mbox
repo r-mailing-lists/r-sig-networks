@@ -1,0 +1,30 @@
+From rshepard at appl-ecosys.com  Wed Jun 26 19:38:11 2013
+From: rshepard at appl-ecosys.com (Rich Shepard)
+Date: Wed, 26 Jun 2013 10:38:11 -0700 (PDT)
+Subject: [R-sig-networks] Applying PLS-PM to Environmental Regulations
+Message-ID: <alpine.LNX.2.00.1306261026330.22894@salmo.appl-ecosys.com>
+
+   I'm brand new to PLS-PM but think that it's the most appropriate approach
+for my analytical need: developing indices of beneficial uses of water
+bodies. I've read Gaston Sanchez's excellent book on 'PLS Path Modeling With
+R' and am going through it again. I believe that I understand how to
+structure the network of manifest and latent variables and set up the R data
+structures; time will tell if my understanding is sufficiently complete.
+
+   The few relevant references to PLS-PM (or each part separately) suggest
+that use of this analytical approach has focused on marketing and economic
+research rather than applied environmental science. This is not a problem.
+What I would appreciate are pointers to examples of PLS-PM applied to highly
+complex concepts that I can use to support using this approach in a
+different context.
+
+Thanks in advance,
+
+Rich
+
+-- 
+Richard B. Shepard, Ph.D.          |      Have knowledge, will travel.
+Applied Ecosystem Services, Inc.   |
+<http://www.appl-ecosys.com>     Voice: 503-667-4517      Fax: 503-667-8863
+
+

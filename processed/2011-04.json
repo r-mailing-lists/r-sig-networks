@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2011-04",
+  "messages": [
+    {
+      "id": "msg-e13a7f2b0be2",
+      "message_id": "<BAY159-w45E06E387C63FE0C0A6322D1910@phx.gbl>",
+      "from_name": "Susana Pérez",
+      "from_email_hash": "6f49ce932eb7fd2dc637bcac96a308b4bee144a1209cf877d7021d287e518242",
+      "date": "2011-04-18T16:24:42+02:00",
+      "subject": "[R-sig-networks] MST for directed graphs",
+      "subject_clean": "MST for directed graphs",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110418/b4498ad6/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110418/b4498ad6/attachment.pl>",
+      "thread_id": "thread-e13a7f2b0be2",
+      "thread_depth": 0,
+      "month": "2011-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e13a7f2b0be2",
+      "subject": "MST for directed graphs",
+      "message_count": 1,
+      "participants": [
+        "Susana Pérez"
+      ],
+      "started": "2011-04-18T16:24:42+02:00",
+      "last_reply": "2011-04-18T16:24:42+02:00",
+      "root_message_id": "msg-e13a7f2b0be2"
+    }
+  ]
+}

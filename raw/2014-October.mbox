@@ -1,0 +1,58 @@
+From f.alimadadi at gmail.com  Tue Oct 21 20:55:30 2014
+From: f.alimadadi at gmail.com (Fatemeh a)
+Date: Tue, 21 Oct 2014 22:25:30 +0330
+Subject: [R-sig-networks] packages for community detection and social
+	network analysis
+Message-ID: <CABzwCXOYchNH4ZVhBD4vtp1k1jW-RV31zpJ=MtFigoH8y3-xSA@mail.gmail.com>
+
+Hi all,
+
+ I was Wondering whether there is any pakage beside "igraph" and "linkcomm"
+in R for community detection and social network analysis ?
+
+Thank You in advance,
+
+
+-- 
+regards
+Fatemeh..A
+?
+
+	[[alternative HTML version deleted]]
+
+
+From f.alimadadi at gmail.com  Sat Oct 25 14:18:14 2014
+From: f.alimadadi at gmail.com (Fatemeh a)
+Date: Sat, 25 Oct 2014 15:48:14 +0330
+Subject: [R-sig-networks] Linkcomm
+Message-ID: <CABzwCXM1ai37ww5LDAZNxt6zZWEC9xda1=4zNg5ns4cwuQeB7Q@mail.gmail.com>
+
+hi,
+I am running community detection algorithm on my data which
+ is not small : nodes :35000 and edges:680000
+
+I try to run the "linkcomm" community detection algorithm third times but R
+became not responding after stage when it finished calculating Edge
+similarities !!, what should I do ?  is it because of the size of the
+graph? is there any solution or it can not handel  this size of network ?
+
+my system information:
+
+
+OS :windows 8 -64 bit
+
+Processor: intel core i7
+
+ R 3.1.1
+
+
+
+thank you in advance ,
+
+-- 
+regards
+Fatemeh
+
+	[[alternative HTML version deleted]]
+
+

@@ -1,0 +1,334 @@
+From sebastian.daza at gmail.com  Wed May 18 21:28:30 2011
+From: sebastian.daza at gmail.com (=?ISO-8859-1?Q?Sebasti=E1n_Daza?=)
+Date: Wed, 18 May 2011 14:28:30 -0500
+Subject: [R-sig-networks] network data and grouping analysis question
+Message-ID: <4DD41DDE.2000106@gmail.com>
+
+Hi everyone,
+I have a dataset of friendship with this format:
+
+      ego alter
+4746    1     2
+9742    1     3
+14738   1    NA
+4747    2    NA
+9743    2    3
+14739   2    1
+4748    3    13
+9744    3   5
+14740   3    14
+4749    4    NA
+9745    4    NA
+14741   4    NA
+4750    5    NA
+9746    5    13
+14742   5    10
+4751    6   12
+9747    6     7
+...
+
+
+NA means that individuals don't select any friend. Does anyone know how 
+to format this dataset to use sna or igraph packages? I don't know how 
+to convert it into a matrix or a edgelist in R without losing isolated 
+individuals .
+
+Next question, anyone knows if there is a package to perform a  Moody's 
+Crowds routine to identify groups using R, or other algorithms designed 
+to search groups by maximizing modularity scores?
+
+Thank  you in advance!
+-- 
+Sebasti?n Daza
+sebastian.daza at gmail.com
+
+
+From sebastian.daza at gmail.com  Wed May 18 21:45:26 2011
+From: sebastian.daza at gmail.com (=?UTF-8?B?U2ViYXN0acOhbiBEYXph?=)
+Date: Wed, 18 May 2011 14:45:26 -0500
+Subject: [R-sig-networks] [R] data network format and grouping analysis
+In-Reply-To: <444534D4B68A4F52A93C07B354A9C2A4@gmail.com>
+References: <4DD40EBB.9030501@gmail.com>
+	<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>
+Message-ID: <4DD421D6.7060305@gmail.com>
+
+Thank you Scott.
+NA means there is no edge.  If I exclude NAs, I could lose isolated 
+individuals. That's why my question. Each ego selected three friends in 
+my database. If an ego didn't select any friend, it had only NAs in 
+alter column. Any ideas?
+
+
+On 5/18/2011 2:33 PM, Scott Chamberlain wrote:
+> The following works to get an igraph object from a matrix edgelist:
+>
+> dat2 <- matrix(rep(seq(1,5,1), 4), nrow=10, ncol=2)
+> graph.edgelist( dat2 )
+>
+>
+> I tried with NA's but graph.edgelist did not allow NA's. Wouldn't you
+> just leave those rows out with NA's in them? An NA means there is no
+> edge, right?
+>
+> Scott
+>
+> On Wednesday, May 18, 2011 at 1:23 PM, Sebasti?n Daza wrote:
+>
+>> Hi everyone,
+>> I have a dataset of friendship with this format:
+>>
+>> ego alter
+>> 4746 1 2
+>> 9742 1 3
+>> 14738 1 NA
+>> 4747 2 NA
+>> 9743 2 3
+>> 14739 2 1
+>> 4748 3 13
+>> 9744 3 5
+>> 14740 3 14
+>> 4749 4 NA
+>> 9745 4 NA
+>> 14741 4 NA
+>> 4750 5 NA
+>> 9746 5 13
+>> 14742 5 10
+>> 4751 6 12
+>> 9747 6 7
+>> ...
+>>
+>>
+>> NA means that individuals don't select any friend. DDoes anyone know how
+>> to format this dataset to use sna or igraph packages? I don't know how
+>> to convert it into a matrix or a edgelist in R without losing isolated
+>> individuals .
+>>
+>> Next question, anyone knows if there is a package to perform a Moody's
+>> Crowds routine to identify groups using R, or other algorithms designed
+>> to search groups by maximizing modularity scores?
+>>
+>> Thank you in advance!
+>>
+>> --
+>> Sebasti?n Daza
+>> sebastian.daza at gmail.com <mailto:sebastian.daza at gmail.com>
+>>
+>> ______________________________________________
+>> R-help at r-project.org <mailto:R-help at r-project.org> mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-help
+>> PLEASE do read the posting guide
+>> http://www.R-project.org/posting-guide.html
+>> and provide commented, minimal, self-contained, reproducible code.
+>
+
+-- 
+Sebasti?n Daza
+sebastian.daza at gmail.com
+
+
+From mathijsdevaan at gmail.com  Wed May 18 21:48:54 2011
+From: mathijsdevaan at gmail.com (Mathijs de Vaan)
+Date: Wed, 18 May 2011 21:48:54 +0200
+Subject: [R-sig-networks] [R] data network format and grouping analysis
+In-Reply-To: <4DD421D6.7060305@gmail.com>
+References: <4DD40EBB.9030501@gmail.com>
+	<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>
+	<4DD421D6.7060305@gmail.com>
+Message-ID: <BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110518/62bb5cde/attachment.pl>
+
+From sebastian.daza at gmail.com  Wed May 18 23:50:36 2011
+From: sebastian.daza at gmail.com (=?ISO-8859-1?Q?Sebasti=E1n_Daza?=)
+Date: Wed, 18 May 2011 16:50:36 -0500
+Subject: [R-sig-networks] [R] data network format and grouping analysis
+In-Reply-To: <BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>
+References: <4DD40EBB.9030501@gmail.com>	<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>	<4DD421D6.7060305@gmail.com>
+	<BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>
+Message-ID: <4DD43F2C.4080809@gmail.com>
+
+Thank you Mathijs, but now I have several graphs with loops that don't 
+mean anything. Isn't there another way to do it? Do you know about some 
+clear document that deals with these kind of data management problems in 
+R and sna?
+
+Sebastian
+
+On 5/18/2011 2:48 PM, Mathijs de Vaan wrote:
+> Simply add an edge between ego and ego for each ego.
+>
+> Mathijs
+>
+> 2011/5/18 Sebasti?n Daza <sebastian.daza at gmail.com
+> <mailto:sebastian.daza at gmail.com>>
+>
+>     Thank you Scott.
+>     NA means there is no edge.  If I exclude NAs, I could lose isolated
+>     individuals. That's why my question. Each ego selected three friends
+>     in my database. If an ego didn't select any friend, it had only NAs
+>     in alter column. Any ideas?
+>
+>
+>     On 5/18/2011 2:33 PM, Scott Chamberlain wrote:
+>
+>         The following works to get an igraph object from a matrix edgelist:
+>
+>         dat2 <- matrix(rep(seq(1,5,1), 4), nrow=10, ncol=2)
+>         graph.edgelist( dat2 )
+>
+>
+>         I tried with NA's but graph.edgelist did not allow NA's.
+>         Wouldn't you
+>         just leave those rows out with NA's in them? An NA means there is no
+>         edge, right?
+>
+>         Scott
+>
+>         On Wednesday, May 18, 2011 at 1:23 PM, Sebasti?n Daza wrote:
+>
+>             Hi everyone,
+>             I have a dataset of friendship with this format:
+>
+>             ego alter
+>             4746 1 2
+>             9742 1 3
+>             14738 1 NA
+>             4747 2 NA
+>             9743 2 3
+>             14739 2 1
+>             4748 3 13
+>             9744 3 5
+>             14740 3 14
+>             4749 4 NA
+>             9745 4 NA
+>             14741 4 NA
+>             4750 5 NA
+>             9746 5 13
+>             14742 5 10
+>             4751 6 12
+>             9747 6 7
+>             ...
+>
+>
+>             NA means that individuals don't select any friend. DDoes
+>             anyone know how
+>             to format this dataset to use sna or igraph packages? I
+>             don't know how
+>             to convert it into a matrix or a edgelist in R without
+>             losing isolated
+>             individuals .
+>
+>             Next question, anyone knows if there is a package to perform
+>             a Moody's
+>             Crowds routine to identify groups using R, or other
+>             algorithms designed
+>             to search groups by maximizing modularity scores?
+>
+>             Thank you in advance!
+>
+>             --
+>             Sebasti?n Daza
+>             sebastian.daza at gmail.com <mailto:sebastian.daza at gmail.com>
+>             <mailto:sebastian.daza at gmail.com
+>             <mailto:sebastian.daza at gmail.com>>
+>
+>             ______________________________________________
+>             R-help at r-project.org <mailto:R-help at r-project.org>
+>             <mailto:R-help at r-project.org <mailto:R-help at r-project.org>>
+>             mailing list
+>             https://stat.ethz.ch/mailman/listinfo/r-help
+>             PLEASE do read the posting guide
+>             http://www.R-project.org/posting-guide.html
+>             and provide commented, minimal, self-contained, reproducible
+>             code.
+>
+>
+>
+>     --
+>     Sebasti?n Daza
+>     sebastian.daza at gmail.com <mailto:sebastian.daza at gmail.com>
+>
+>     _______________________________________________
+>     R-sig-networks mailing list
+>     R-sig-networks at r-project.org <mailto:R-sig-networks at r-project.org>
+>     https://stat.ethz.ch/mailman/listinfo/r-sig-networks
+>
+>
+
+-- 
+Sebasti?n Daza
+sebastian.daza at gmail.com
+
+
+From gary at babelgraph.org  Thu May 19 16:20:28 2011
+From: gary at babelgraph.org (Gary Weissman)
+Date: Thu, 19 May 2011 10:20:28 -0400
+Subject: [R-sig-networks] R-sig-networks Digest, Vol 4, Issue 1
+In-Reply-To: <mailman.15.1305799204.11042.r-sig-networks@r-project.org>
+References: <mailman.15.1305799204.11042.r-sig-networks@r-project.org>
+Message-ID: <A3BA42D8-4508-4B75-8209-DC0E2D33C01C@babelgraph.org>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110519/88b221d4/attachment.pl>
+
+From sebastian.daza at gmail.com  Fri May 20 02:39:50 2011
+From: sebastian.daza at gmail.com (=?ISO-8859-1?Q?Sebasti=E1n_Daza?=)
+Date: Thu, 19 May 2011 19:39:50 -0500
+Subject: [R-sig-networks] identifying groups
+Message-ID: <4DD5B856.4070302@gmail.com>
+
+Hi everyone,
+Does anyone know if there is a package to perform a  Moody's Crowds 
+routine to identify groups using R, or other algorithms designed to 
+search groups by maximizing modularity scores? Otherwise, other packages 
+to identify groups, or other programs to do it.
+
+I have about 80 networks clustered in schools. So, I have to identify 
+groups for each school.
+
+Thank  you in advance!
+-- 
+Sebasti?n Daza
+sebastian.daza at gmail.com
+
+
+From csardi.gabor at gmail.com  Fri May 20 21:53:11 2011
+From: csardi.gabor at gmail.com (=?ISO-8859-1?B?R+Fib3IgQ3PhcmRp?=)
+Date: Fri, 20 May 2011 15:53:11 -0400
+Subject: [R-sig-networks] identifying groups
+In-Reply-To: <4DD5B856.4070302@gmail.com>
+References: <4DD5B856.4070302@gmail.com>
+Message-ID: <BANLkTi=zQKFORA_QZk68-UdQMZQb8zGWzw@mail.gmail.com>
+
+Sebasti?n,
+
+there are several algorithms in the igraph package, look for 'community' here:
+http://igraph.sourceforge.net/doc/R/00Index.html
+
+G?bor
+
+2011/5/19 Sebasti?n Daza <sebastian.daza at gmail.com>:
+> Hi everyone,
+> Does anyone know if there is a package to perform a ?Moody's Crowds routine
+> to identify groups using R, or other algorithms designed to search groups by
+> maximizing modularity scores? Otherwise, other packages to identify groups,
+> or other programs to do it.
+>
+> I have about 80 networks clustered in schools. So, I have to identify groups
+> for each school.
+>
+> Thank ?you in advance!
+> --
+> Sebasti?n Daza
+> sebastian.daza at gmail.com
+>
+> _______________________________________________
+> R-sig-networks mailing list
+> R-sig-networks at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-networks
+>
+
+

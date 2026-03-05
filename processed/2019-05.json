@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2019-05",
+  "messages": [
+    {
+      "id": "msg-adfec1c46149",
+      "message_id": "<CAB6kXFzwQ9R3v1+rQiCAahTSH=GSYG_QEc=YLaEra0GmCdruPQ@mail.gmail.com>",
+      "from_name": "Zé Vinícius",
+      "from_email_hash": "f8cbb74adcd2d7a862b35b9c40d15af7ad9f37426b8c68fea35662286b6c1e63",
+      "date": "2019-05-08T22:21:14-03:00",
+      "subject": "[R-sig-networks] spectralGraphTopology release 0.1.0 is on CRAN",
+      "subject_clean": "spectralGraphTopology release 0.1.0 is on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone,\n\nI'm glad to announce the very first release of the spectralGraphTopology\npackage on CRAN.  spectralGraphTopology provides functions to estimate\nundirected weighted graphs from observational data.  It implements the\nmethods and algorithms recently developed in\nhttps://arxiv.org/abs/1904.09792 and a more well-known graph clustering\nmethod published in https://dl.acm.org/citation.cfm?id=3016174.\n\nspectralGraphTopology lives on GitHub:\nhttps://github.com/dppalomar/spectralGraphTopology.  We welcome all sorts\nof contributions and feedback.  See\nhttps://mirca.github.io/spectralGraphTopology for documentation.\n\nThanks,\nVin?cius\n\n-- \nwebpage: https://mirca.github.io\ngithub: @mirca <https://www.github.com/mirca>\ntwitter: @mircaze <https://www.twitter.com/mircaze>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone,\n\nI'm glad to announce the very first release of the spectralGraphTopology\npackage on CRAN.  spectralGraphTopology provides functions to estimate\nundirected weighted graphs from observatio",
+      "thread_id": "thread-adfec1c46149",
+      "thread_depth": 0,
+      "month": "2019-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-adfec1c46149",
+      "subject": "spectralGraphTopology release 0.1.0 is on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Zé Vinícius"
+      ],
+      "started": "2019-05-08T22:21:14-03:00",
+      "last_reply": "2019-05-08T22:21:14-03:00",
+      "root_message_id": "msg-adfec1c46149"
+    }
+  ]
+}

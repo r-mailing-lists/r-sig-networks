@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-networks",
+  "description": "",
+  "month": "2009-05",
+  "messages": [
+    {
+      "id": "msg-0d100f3f8e2c",
+      "message_id": "<web-5331458@backend1.pablo.unimib.it>",
+      "from_name": "Paola Zappa",
+      "from_email_hash": "7789480e81c8f04ec5cd7fdc1fc69508a6aa27e8a0981f60d20a21c351578237",
+      "date": "2009-05-07T12:47:09+02:00",
+      "subject": "[R-sig-networks] Spatial lag model on CATREG transformed scores",
+      "subject_clean": "Spatial lag model on CATREG transformed scores",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20090507/5469d9e3/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20090507/5469d9e3/attachment.html>",
+      "thread_id": "thread-0d100f3f8e2c",
+      "thread_depth": 0,
+      "month": "2009-05"
+    },
+    {
+      "id": "msg-d00b5bd076fa",
+      "message_id": "<4A0D73C2.2050902@wirtschaft.uni-kassel.de>",
+      "from_name": "Martin Klaus",
+      "from_email_hash": "680374c9dbd7ccc76f32cb777ecc5e89798b33d124ebf6364002bbfb51e8fd5a",
+      "date": "2009-05-15T15:53:06+02:00",
+      "subject": "[R-sig-networks] combine ego networks back again and more",
+      "subject_clean": "combine ego networks back again and more",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20090515/11871471/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20090515/11871471/attachment.pl>",
+      "thread_id": "thread-d00b5bd076fa",
+      "thread_depth": 0,
+      "month": "2009-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0d100f3f8e2c",
+      "subject": "Spatial lag model on CATREG transformed scores",
+      "message_count": 1,
+      "participants": [
+        "Paola Zappa"
+      ],
+      "started": "2009-05-07T12:47:09+02:00",
+      "last_reply": "2009-05-07T12:47:09+02:00",
+      "root_message_id": "msg-0d100f3f8e2c"
+    },
+    {
+      "id": "thread-d00b5bd076fa",
+      "subject": "combine ego networks back again and more",
+      "message_count": 1,
+      "participants": [
+        "Martin Klaus"
+      ],
+      "started": "2009-05-15T15:53:06+02:00",
+      "last_reply": "2009-05-15T15:53:06+02:00",
+      "root_message_id": "msg-d00b5bd076fa"
+    }
+  ]
+}
