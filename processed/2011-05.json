@@ -8,7 +8,7 @@
       "message_id": "<4DD41DDE.2000106@gmail.com>",
       "from_name": "Sebastián Daza",
       "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
-      "date": "2011-05-18T14:28:30-05:00",
+      "date": "2011-05-18T19:28:30Z",
       "subject": "[R-sig-networks] network data and grouping analysis question",
       "subject_clean": "network data and grouping analysis question",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4DD421D6.7060305@gmail.com>",
       "from_name": "Sebastián Daza",
       "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
-      "date": "2011-05-18T14:45:26-05:00",
+      "date": "2011-05-18T19:45:26Z",
       "subject": "[R-sig-networks] [R] data network format and grouping analysis",
       "subject_clean": "data network format and grouping analysis",
       "in_reply_to": "<444534D4B68A4F52A93C07B354A9C2A4@gmail.com>",
@@ -43,7 +43,7 @@
       "message_id": "<BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>",
       "from_name": "Mathijs de Vaan",
       "from_email_hash": "35893a7e7cb55db3f041c18be84433deb46983f1e690824a41d61bf826b13ead",
-      "date": "2011-05-18T21:48:54+02:00",
+      "date": "2011-05-18T19:48:54Z",
       "subject": "[R-sig-networks] [R] data network format and grouping analysis",
       "subject_clean": "data network format and grouping analysis",
       "in_reply_to": "<4DD421D6.7060305@gmail.com>",
@@ -63,7 +63,7 @@
       "message_id": "<4DD43F2C.4080809@gmail.com>",
       "from_name": "Sebastián Daza",
       "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
-      "date": "2011-05-18T16:50:36-05:00",
+      "date": "2011-05-18T21:50:36Z",
       "subject": "[R-sig-networks] [R] data network format and grouping analysis",
       "subject_clean": "data network format and grouping analysis",
       "in_reply_to": "<BANLkTinh5Q-z7aB6nWZj3TcNHEaEvBagQw@mail.gmail.com>",
@@ -84,7 +84,7 @@
       "message_id": "<A3BA42D8-4508-4B75-8209-DC0E2D33C01C@babelgraph.org>",
       "from_name": "Gary Weissman",
       "from_email_hash": "c52d1ea1ffdad8266174fc4546e86c90c8bc1d15c1d0261d0f804f2e4aae9367",
-      "date": "2011-05-19T10:20:28-04:00",
+      "date": "2011-05-19T14:20:28Z",
       "subject": "[R-sig-networks] R-sig-networks Digest, Vol 4, Issue 1",
       "subject_clean": "R-sig-networks Digest, Vol 4, Issue 1",
       "in_reply_to": "<mailman.15.1305799204.11042.r-sig-networks@r-project.org>",
@@ -102,7 +102,7 @@
       "message_id": "<4DD5B856.4070302@gmail.com>",
       "from_name": "Sebastián Daza",
       "from_email_hash": "352ab4d1a7a97af569c55bfa48ecfbbd822828e6dffca011d8a972cf8953e60a",
-      "date": "2011-05-19T19:39:50-05:00",
+      "date": "2011-05-20T00:39:50Z",
       "subject": "[R-sig-networks] identifying groups",
       "subject_clean": "identifying groups",
       "in_reply_to": null,
@@ -118,7 +118,7 @@
       "message_id": "<BANLkTi=zQKFORA_QZk68-UdQMZQb8zGWzw@mail.gmail.com>",
       "from_name": "Gábor Csárdi",
       "from_email_hash": "be1b1aa2bf940edb4d90301c038c97e98b84ed5c8724f0d46a3b2ee263683539",
-      "date": "2011-05-20T15:53:11-04:00",
+      "date": "2011-05-20T19:53:11Z",
       "subject": "[R-sig-networks] identifying groups",
       "subject_clean": "identifying groups",
       "in_reply_to": "<4DD5B856.4070302@gmail.com>",
@@ -140,8 +140,8 @@
       "participants": [
         "Sebastián Daza"
       ],
-      "started": "2011-05-18T14:28:30-05:00",
-      "last_reply": "2011-05-18T14:28:30-05:00",
+      "started": "2011-05-18T19:28:30Z",
+      "last_reply": "2011-05-18T19:28:30Z",
       "root_message_id": "msg-9c2ccd97197c"
     },
     {
@@ -152,8 +152,8 @@
         "Mathijs de Vaan",
         "Sebastián Daza"
       ],
-      "started": "2011-05-18T14:45:26-05:00",
-      "last_reply": "2011-05-18T16:50:36-05:00",
+      "started": "2011-05-18T19:45:26Z",
+      "last_reply": "2011-05-18T21:50:36Z",
       "root_message_id": "msg-ce6785debd5c"
     },
     {
@@ -163,8 +163,8 @@
       "participants": [
         "Gary Weissman"
       ],
-      "started": "2011-05-19T10:20:28-04:00",
-      "last_reply": "2011-05-19T10:20:28-04:00",
+      "started": "2011-05-19T14:20:28Z",
+      "last_reply": "2011-05-19T14:20:28Z",
       "root_message_id": "msg-fd320f4fd184"
     },
     {
@@ -175,8 +175,8 @@
         "Gábor Csárdi",
         "Sebastián Daza"
       ],
-      "started": "2011-05-19T19:39:50-05:00",
-      "last_reply": "2011-05-20T15:53:11-04:00",
+      "started": "2011-05-20T00:39:50Z",
+      "last_reply": "2011-05-20T19:53:11Z",
       "root_message_id": "msg-9d307173bbe0"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<alpine.LNX.2.00.1306261026330.22894@salmo.appl-ecosys.com>",
       "from_name": "Rich Shepard",
       "from_email_hash": "fae16a7dbae64fd8dac1e2b7eb51dd8c7aa1e1ecad85248ae3b54421c4e0babc",
-      "date": "2013-06-26T10:38:11-07:00",
+      "date": "2013-06-26T17:38:11Z",
       "subject": "[R-sig-networks] Applying PLS-PM to Environmental Regulations",
       "subject_clean": "Applying PLS-PM to Environmental Regulations",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Rich Shepard"
       ],
-      "started": "2013-06-26T10:38:11-07:00",
-      "last_reply": "2013-06-26T10:38:11-07:00",
+      "started": "2013-06-26T17:38:11Z",
+      "last_reply": "2013-06-26T17:38:11Z",
       "root_message_id": "msg-c2fd6bbf950e"
     }
   ]

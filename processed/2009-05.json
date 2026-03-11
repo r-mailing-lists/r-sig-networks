@@ -8,7 +8,7 @@
       "message_id": "<web-5331458@backend1.pablo.unimib.it>",
       "from_name": "Paola Zappa",
       "from_email_hash": "7789480e81c8f04ec5cd7fdc1fc69508a6aa27e8a0981f60d20a21c351578237",
-      "date": "2009-05-07T12:47:09+02:00",
+      "date": "2009-05-07T10:47:09Z",
       "subject": "[R-sig-networks] Spatial lag model on CATREG transformed scores",
       "subject_clean": "Spatial lag model on CATREG transformed scores",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4A0D73C2.2050902@wirtschaft.uni-kassel.de>",
       "from_name": "Martin Klaus",
       "from_email_hash": "680374c9dbd7ccc76f32cb777ecc5e89798b33d124ebf6364002bbfb51e8fd5a",
-      "date": "2009-05-15T15:53:06+02:00",
+      "date": "2009-05-15T13:53:06Z",
       "subject": "[R-sig-networks] combine ego networks back again and more",
       "subject_clean": "combine ego networks back again and more",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Paola Zappa"
       ],
-      "started": "2009-05-07T12:47:09+02:00",
-      "last_reply": "2009-05-07T12:47:09+02:00",
+      "started": "2009-05-07T10:47:09Z",
+      "last_reply": "2009-05-07T10:47:09Z",
       "root_message_id": "msg-0d100f3f8e2c"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Martin Klaus"
       ],
-      "started": "2009-05-15T15:53:06+02:00",
-      "last_reply": "2009-05-15T15:53:06+02:00",
+      "started": "2009-05-15T13:53:06Z",
+      "last_reply": "2009-05-15T13:53:06Z",
       "root_message_id": "msg-d00b5bd076fa"
     }
   ]

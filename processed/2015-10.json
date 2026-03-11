@@ -8,7 +8,7 @@
       "message_id": "<1445964463.13045.YahooMailBasic@web142606.mail.bf1.yahoo.com>",
       "from_name": "Avi Weinberg",
       "from_email_hash": "11d0b5592d62d6c5678fd18d6586e24e0a42862877fc40fe5de16df51db9cace",
-      "date": "2015-10-27T09:47:43-07:00",
+      "date": "2015-10-27T16:47:43Z",
       "subject": "[R-sig-networks] Transformation of J48 Decision Tree into Newick Tree",
       "subject_clean": "Transformation of J48 Decision Tree into Newick Tree",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Avi Weinberg"
       ],
-      "started": "2015-10-27T09:47:43-07:00",
-      "last_reply": "2015-10-27T09:47:43-07:00",
+      "started": "2015-10-27T16:47:43Z",
+      "last_reply": "2015-10-27T16:47:43Z",
       "root_message_id": "msg-d8157aeee4ae"
     }
   ]

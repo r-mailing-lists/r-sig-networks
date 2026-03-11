@@ -8,7 +8,7 @@
       "message_id": "<DUB125-W90AD26EB36FD122FACF4DEB34C0@phx.gbl>",
       "from_name": "Ragia Ibrahim",
       "from_email_hash": "2ecfacb089ab26af71751a5a36a869f09f16f34bd39598ea996d1585a19ffa68",
-      "date": "2014-05-05T06:53:34+02:00",
+      "date": "2014-05-05T04:53:34Z",
       "subject": "[R-sig-networks] uniformedge unifrom probability",
       "subject_clean": "uniformedge unifrom probability",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<trinity-bce5fe3b-3001-4952-a496-90155d62278f-1399292724126@3capp-gmx-bs16>",
       "from_name": "Steffen Blenk",
       "from_email_hash": "88a44ff26901adca6e3431b651d63b85eea34af620bb9bdac2c0d70386a7164e",
-      "date": "2014-05-05T14:25:24+02:00",
+      "date": "2014-05-05T12:25:24Z",
       "subject": "[R-sig-networks] help",
       "subject_clean": "help",
       "in_reply_to": "<mailman.11.1399284005.18224.r-sig-networks@r-project.org>",
@@ -46,8 +46,8 @@
       "participants": [
         "Ragia Ibrahim"
       ],
-      "started": "2014-05-05T06:53:34+02:00",
-      "last_reply": "2014-05-05T06:53:34+02:00",
+      "started": "2014-05-05T04:53:34Z",
+      "last_reply": "2014-05-05T04:53:34Z",
       "root_message_id": "msg-0dc8ddab2d4b"
     },
     {
@@ -57,8 +57,8 @@
       "participants": [
         "Steffen Blenk"
       ],
-      "started": "2014-05-05T14:25:24+02:00",
-      "last_reply": "2014-05-05T14:25:24+02:00",
+      "started": "2014-05-05T12:25:24Z",
+      "last_reply": "2014-05-05T12:25:24Z",
       "root_message_id": "msg-38746418732f"
     }
   ]

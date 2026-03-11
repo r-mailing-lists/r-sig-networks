@@ -8,7 +8,7 @@
       "message_id": "<2e1b01ab-19cc-e880-d160-9fff3030153e@baylor.edu>",
       "from_name": "Erick LeBrun",
       "from_email_hash": "89a0bab2ba2a001f4b34b4e62c27c976754b7542d92ac95d9f0fa36a01aa53a9",
-      "date": "2016-07-27T16:56:46-05:00",
+      "date": "2016-07-27T21:56:46Z",
       "subject": "[R-sig-networks] Questions about interpreting ERGM goodness of fit",
       "subject_clean": "Questions about interpreting ERGM goodness of fit",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<8a08e546-f56e-ca08-f64d-9e58f49848ec@ipw.unibe.ch>",
       "from_name": "Philip Leifeld",
       "from_email_hash": "267581854094383cee73c04f2f16c57beabca283c871136016390ce40bec223b",
-      "date": "2016-07-27T23:11:59+01:00",
+      "date": "2016-07-27T22:11:59Z",
       "subject": "[R-sig-networks] Questions about interpreting ERGM goodness of fit",
       "subject_clean": "Questions about interpreting ERGM goodness of fit",
       "in_reply_to": "<2e1b01ab-19cc-e880-d160-9fff3030153e@baylor.edu>",
@@ -67,8 +67,8 @@
         "LeBrun, Erick",
         "Philip Leifeld"
       ],
-      "started": "2016-07-27T16:56:46-05:00",
-      "last_reply": "2016-07-28T13:52:53+00:00",
+      "started": "2016-07-27T21:56:46Z",
+      "last_reply": "2016-07-28T13:52:53Z",
       "root_message_id": "msg-d9e573c2a53a"
     }
   ]

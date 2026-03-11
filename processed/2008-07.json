@@ -8,7 +8,7 @@
       "message_id": "<BC5F8F1C83BC2F4090D8DC7BF750D348017F1153@saturn.HealthIQ.local>",
       "from_name": "Senthil Purushothaman",
       "from_email_hash": "f1a9f52e5ca3b76efa99489246975771a3bbce6dddf139bfafa3615a926882ca",
-      "date": "2008-07-18T13:02:41-07:00",
+      "date": "2008-07-18T20:02:41Z",
       "subject": "[R-sig-networks] Calculating Betweenness - Efficiency Problem",
       "subject_clean": "Calculating Betweenness - Efficiency Problem",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Senthil Purushothaman"
       ],
-      "started": "2008-07-18T13:02:41-07:00",
-      "last_reply": "2008-07-18T13:02:41-07:00",
+      "started": "2008-07-18T20:02:41Z",
+      "last_reply": "2008-07-18T20:02:41Z",
       "root_message_id": "msg-d73903a6e43d"
     }
   ]

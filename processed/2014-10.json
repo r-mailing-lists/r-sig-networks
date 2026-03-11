@@ -8,7 +8,7 @@
       "message_id": "<CABzwCXOYchNH4ZVhBD4vtp1k1jW-RV31zpJ=MtFigoH8y3-xSA@mail.gmail.com>",
       "from_name": "Fatemeh a",
       "from_email_hash": "f7ee22eb101a07f2190b5519ad7e5b0d01a5725173b03004500eb78cd4ba6f30",
-      "date": "2014-10-21T22:25:30+03:30",
+      "date": "2014-10-21T18:55:30Z",
       "subject": "[R-sig-networks] packages for community detection and social network analysis",
       "subject_clean": "packages for community detection and social network analysis",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CABzwCXM1ai37ww5LDAZNxt6zZWEC9xda1=4zNg5ns4cwuQeB7Q@mail.gmail.com>",
       "from_name": "Fatemeh a",
       "from_email_hash": "f7ee22eb101a07f2190b5519ad7e5b0d01a5725173b03004500eb78cd4ba6f30",
-      "date": "2014-10-25T15:48:14+03:30",
+      "date": "2014-10-25T12:18:14Z",
       "subject": "[R-sig-networks] Linkcomm",
       "subject_clean": "Linkcomm",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Fatemeh a"
       ],
-      "started": "2014-10-21T22:25:30+03:30",
-      "last_reply": "2014-10-21T22:25:30+03:30",
+      "started": "2014-10-21T18:55:30Z",
+      "last_reply": "2014-10-21T18:55:30Z",
       "root_message_id": "msg-e587df4d7853"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Fatemeh a"
       ],
-      "started": "2014-10-25T15:48:14+03:30",
-      "last_reply": "2014-10-25T15:48:14+03:30",
+      "started": "2014-10-25T12:18:14Z",
+      "last_reply": "2014-10-25T12:18:14Z",
       "root_message_id": "msg-ab957684f9fe"
     }
   ]
