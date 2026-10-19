@@ -13,11 +13,14 @@
       "subject_clean": "uniformedge unifrom probability",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20140505/2e02d2a3/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20140505/2e02d2a3/attachment.pl>",
+      "body_plain": "Dear group,\nHow to assign uniform probability for each edge choosing p to be 2% and 5%\nthanks in advance\nRAE\n \t\t \t   \t\t  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear group,\nHow to assign uniform probability for each edge choosing p to be 2% and 5%\nthanks in advance\nRAE\n \t\t \t   \t\t  \n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-0dc8ddab2d4b",
       "thread_depth": 0,
-      "month": "2014-05"
+      "month": "2014-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20140505/2e02d2a3/attachment.pl"
+      ]
     },
     {
       "id": "msg-38746418732f",

@@ -13,11 +13,14 @@
       "subject_clean": "Question concerning network scale-up method",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20111020/2fac310f/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20111020/2fac310f/attachment.pl>",
+      "body_plain": "Hi everyone,\n\ndo you guys know any R package with algorithm for network scale-up method\nestimation?\n\nI appreciate any help.\nEverton.\n\n-- \nDoctor and Research Scientist at the Centro de Desenvolvimento e\nPlanejamento Regional-UFMG.\nDoutor e Pesquisador do Centro de Desenvolvimento e Planejamento\nRegional-UFMG.\nDoctor en onderzoeker van de Centro de Desenvolvimento e Planejamento\nRegional-UFMG.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone,\n\ndo you guys know any R package with algorithm for network scale-up method\nestimation?\n\nI appreciate any help.\nEverton.\n\n-- \nDoctor and Research Scientist at the Centro de Desenvolvimento",
       "thread_id": "thread-2477f7a788ff",
       "thread_depth": 0,
-      "month": "2011-10"
+      "month": "2011-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20111020/2fac310f/attachment.pl"
+      ]
     }
   ],
   "threads": [

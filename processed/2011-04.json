@@ -13,11 +13,14 @@
       "subject_clean": "MST for directed graphs",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110418/b4498ad6/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110418/b4498ad6/attachment.pl>",
+      "body_plain": "Dear all,\n\nI'm working with R on finding the Minimum Spanning Tree over a graph mainly using the 'ape' library.\n\nThe 'mst' function from this package finds the MST using Prim's algorithm for undirected graphs.\n\nI would like to find the MST over an undirected graph. I think the \ncommon algorithm for this issue is Edmons or Chu-Liu Edmonds algorithm, \nbut I can't find any of them in R libraries.\n\nDoes anyone know if those algorithms, or any for directed MST, are implemented for R?\n\n\nAny clue or suggestion would be very appreciated.\n\nThank you very much,\nSusana. \t\t \t   \t\t  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nI'm working with R on finding the Minimum Spanning Tree over a graph mainly using the 'ape' library.\n\nThe 'mst' function from this package finds the MST using Prim's algorithm for undirecte",
       "thread_id": "thread-e13a7f2b0be2",
       "thread_depth": 0,
-      "month": "2011-04"
+      "month": "2011-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-networks/attachments/20110418/b4498ad6/attachment.pl"
+      ]
     }
   ],
   "threads": [
